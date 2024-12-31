@@ -1,0 +1,56 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBD TOBI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="{%static "happy/index.css"%}">
+</head>
+<body>
+    <section id="intro">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center text-md-start" id="checkingit">
+                    <h1>
+                        <div class="display-1 fw-bold " id="weigh">HAPPY BIRTHDAY</div>
+                        <div class="display-3 text-muted" >BEECROFT</div>
+                    </h1>
+                    <p class="lead my-4 text-muted " >TechBro | Musician | Developer</p>
+                </div>
+                <div class="col-md-5 text-center">
+                    <img class="img-fluid rounded" src="{%static "images/croft.jpg"%}" alt="Mr Dara">
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section id="intro">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center">
+                    <img class="img-fluid rounded " id="imaee" src="{%static "images/bee.jpg"%}" alt="Mr Dara">
+                </div>
+                <div class="col-md-5 text-center text-md-start" id="checkingit">
+                    <p class="lead my-5 mx-3 text-muted " >
+                        As I celebrate another year, I reflect on a truly epic journey from start to finish. I am grateful to God and everyone who has been part of my story.
+This year, my song is <span class="inidea">“Count Your Blessings, Name Them One by One.”</span> because God has been incredibly faithful, and I can proudly say that I achieved so much this year.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="message" class="bg-light">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2 class="fs-3 fw-light pt-1 mb-3 " id="mess">Would you like to send a <span class="inidea">Birthday wish?</span></h2>
+                <a href="{%url "input"%}"><button type="button" class="btn btn-primary " >Click Here</button></a>
+            </div>
+        </div>
+    </section>
+</html>
+    
+    
+    

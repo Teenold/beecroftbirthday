@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+section{
+    padding:60px 0;
+}
+#weigh{
+    line-height: 1em;
+    color: #215693;
+}
+.inidea{
+    color:rgb(33, 86, 147);
+}
+#backkk{
+    background-color: aqua;
+}
+
